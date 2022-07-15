@@ -27,8 +27,3 @@ def resize_all():
     resize('- Visual Studio Code', 1677, 1040, 398, 0)
 
     print("All windows resized")
-
-
-if __name__ == '__main__':
-    # get_infos()
-    resize_all()
