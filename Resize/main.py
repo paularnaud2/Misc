@@ -21,9 +21,9 @@ def resize(title, width, hight, left, top):
 
 
 def resize_all():
-    resize('UBS Workspace - Desktop Viewer', 2021, 1047, 2065, 0)
-    resize('- Word', 1677, 1040, 398, 0)
-    resize('- Google Chrome', 1693, 1047, 390, 0)
-    resize('- Visual Studio Code', 1677, 1040, 398, 0)
+    resize('UBS Workspace - Desktop Viewer', 2021, 1040, 2065, 0)
+    resize('- Word', 1790, 1040, 290, 0)
+    resize('- Google Chrome', 1790, 1040, 290, 0)
+    resize('- Visual Studio Code', 1677, 1033, 398, 0)
 
     print("All windows resized")
