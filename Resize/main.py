@@ -23,6 +23,7 @@ def resize(title, width, hight, left, top):
 def resize_all():
     resize('UBS Workspace - Desktop Viewer', 2488, 1040, 2075, 0)
     resize('- Word', 1790, 1040, 300, 0)
+    resize('- Excel', 1790, 1040, 300, 0)
     resize('- Google Chrome', 1790, 1039, 300, 0)
     resize('- Visual Studio Code', 1677, 1033, 408, 0)
 
