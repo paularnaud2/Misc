@@ -21,11 +21,11 @@ def resize(title, width, hight, left, top):
 
 
 def resize_all():
-    resize('UBS Workspace - Desktop Viewer', 2488, 1040, 2075, 0)
-    resize('- Word', 1790, 1040, 300, 0)
-    resize('- Excel', 1790, 1040, 300, 0)
-    resize('- Google Chrome', 1790, 1039, 300, 0)
-    resize('- Visual Studio Code', 1677, 1033, 408, 0)
+    resize('UBS Workspace - Desktop Viewer', 2488, 1408, 2737, 0)
+    resize('- Word', 2376, 1408, 362, 0)
+    resize('- Excel', 2376, 1408, 362, 0)
+    resize('- Google Chrome', 2391, 1400, 362, 0)
+    resize('- Visual Studio Code', 2376, 1392, 369, 0)
 
     # window = gw.getWindowsWithTitle('- Visual Studio Code')[0]
     # window.minimize()
