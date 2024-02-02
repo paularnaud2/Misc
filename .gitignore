@@ -3,3 +3,4 @@ cache/
 PT/
 files/
 __pycache__/
+*.json
