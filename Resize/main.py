@@ -23,9 +23,9 @@ def save_to_json():
         k = u.like_list(w.title, TITLES)
         d[k] = {
             'width': w.width,
-            'height': w.height,
+            'height': w.height + 1,
             'left': w.left,
-            'top': w.top,
+            'top': w.top - 1,
         }
     u.log_dict(d)
     u.save_list([json.dumps(d, indent=4)], DATA_PATH)
