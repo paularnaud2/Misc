@@ -7,10 +7,15 @@ from pygetwindow import Win32Window
 TITLES = [
     'UBS Workspace',
     'Google Chrome',
+    'Brave',
     'Visual Studio Code',
     'Accueil',
 ]
 DATA_PATH = 'Resize/data.json'
+
+
+def test():
+    print([w.title for w in gw.getAllWindows()])
 
 
 def save_to_json():
@@ -49,5 +54,6 @@ def move_and_resize(title, d):
 
 
 if __name__ == '__main__':
+    # test()
     save_to_json()
     # restore_json()
