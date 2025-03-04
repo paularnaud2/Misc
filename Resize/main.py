@@ -11,7 +11,7 @@ TITLES = [
     'Visual Studio Code',
     'Accueil',
 ]
-DATA_PATH = 'Resize/data.json'
+DATA_PATH = "G:\\Mon Drive\\Documents\\Fichiers\\resize_data.json"
 
 
 def test():

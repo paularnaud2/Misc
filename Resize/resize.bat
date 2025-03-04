@@ -1,1 +1,1 @@
-c:/Dev/Misc/venv/Scripts/python.exe c:/Dev/Misc/Resize/resize.py
+C:\Users\Paul\Documents\Dev\Misc\venv\Scripts\python.exe C:\Users\Paul\Documents\Dev\Misc\Resize\resize.py
