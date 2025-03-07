@@ -1,9 +1,5 @@
-import os
+import sys
 import main
-import os.path as p
 
 if __name__ == '__main__':
-    cwd = p.dirname(p.dirname(p.realpath(__file__)))
-    print(cwd)
-    os.chdir(cwd)
-    main.restore_json()
+    main.restore_json(sys.argv[1])

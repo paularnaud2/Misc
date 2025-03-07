@@ -11,16 +11,15 @@ TITLES = [
     'Visual Studio Code',
     'Accueil',
 ]
-DATA_PATH = "G:\\Mon Drive\\Documents\\Fichiers\\resize_data.json"
 
 
 def test():
     print([w.title for w in gw.getAllWindows()])
 
 
-def save_to_json():
+def save_to_json(path):
     windows: List[Win32Window] = [w for w in gw.getAllWindows() if u.like_list(w.title, TITLES)]
-    d = json.loads(u.load_txt(DATA_PATH, False))
+    d = json.loads(u.load_txt(path, False))
     for w in windows:
         if w.left == -32000:
             print(f"A problem occured with window '{w.title}'")
@@ -33,11 +32,11 @@ def save_to_json():
             'top': w.top - 1,
         }
     u.log_dict(d)
-    u.save_list([json.dumps(d, indent=4)], DATA_PATH)
+    u.save_list([json.dumps(d, indent=4)], path)
 
 
-def restore_json():
-    d = json.loads(u.load_txt(DATA_PATH, False))
+def restore_json(path):
+    d = json.loads(u.load_txt(path, False))
     for title in d:
         move_and_resize(title, d[title])
 
